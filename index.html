@@ -1,9 +1,9 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Subs-Express</title>
+<title>Subs Express</title>
 
 <style>
 body {
@@ -20,10 +20,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 12px 20px;
+  border-bottom: 1px solid #222;
 }
 
-.logo img {
-  height: 45px;
+/* TEXT LOGO */
+.logo-text {
+  font-size: 24px;
+  font-weight: 800;
+  color: #25D366;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 /* HERO */
@@ -68,8 +74,8 @@ header {
 }
 
 .button:hover {
-  background: #ff5a2a;
   transform: scale(1.05);
+  background: #ff5a2a;
 }
 
 /* MENU */
@@ -112,7 +118,7 @@ header {
   border-radius: 8px;
 }
 
-/* WHATSAPP FLOAT */
+/* WHATSAPP BUTTON */
 .whatsapp {
   position: fixed;
   right: 18px;
@@ -141,15 +147,13 @@ footer {
 <body>
 
 <header>
-  <div class="logo">
-    <img src="https://via.placeholder.com/120x45?text=Subs+Express+Logo" alt="Subs Express Logo">
-  </div>
+  <div class="logo-text">Subs Express</div>
 </header>
 
 <section class="hero">
   <div class="hero-content">
     <h1>Fresh Subs Delivered Fast</h1>
-    <p>Quality ingredients, made fresh daily</p>
+    <p>Quality ingredients made fresh daily</p>
     <a class="button" href="https://wa.me/5016000000">Order Now</a>
   </div>
 </section>
@@ -161,7 +165,7 @@ footer {
     <img src="https://images.unsplash.com/photo-1606755962773-d324e0a13086">
     <div class="card-content">
       <h3>Chicken Sub</h3>
-      <p>Grilled chicken, lettuce, tomato, sauce</p>
+      <p>Grilled chicken, fresh vegetables, sauce</p>
       <strong>$5</strong>
     </div>
   </div>
